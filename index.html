@@ -5,12 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>CRUD on Local Storage</title>
 </head>
 
 <body>
-    <h1>CRUD</h1>
-
+    <main class="container">
+        <section class="crud">
+            <h1 class="crud__title">CRUD de Usuarios</h1>
+            <form id="form__register" class="crud__form">
+                <input type="text" placeholder="Nombre" id="name__input" class="form__input" autofocus>
+                <input type="email" placeholder="Correo electrónico" id="email__input" class="form__input">
+                <button type="submit" id="submit__button" class="button button__primary">Agregar</button>
+            </form>
+            <table class="crud__table">
+                <thead>
+                    <tr>
+                        <th class="table__header">Nombre</th>
+                        <th class="table__header">Correo electrónico</th>
+                        <th class="table__header">Acción</th>
+                    </tr>
+                </thead>
+                <tbody id="table__body" class="table__body">
+                </tbody>
+            </table>
+        </section>
+    </main>
     <script src="app.js"></script>
 </body>
 
