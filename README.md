@@ -1,43 +1,55 @@
-# CRUD using localStorage
+# User CRUD Local Storage
 
-Este repositorio contiene una página web que utiliza JavaScript para implementar operaciones CRUD (Crear, Leer, Actualizar, Borrar) utilizando el almacenamiento local del navegador (Local Storage).
+This is a simple web application that allows users to create, read, update, and delete (CRUD) entries using HTML, CSS, and Vanilla JavaScript, with all data stored in the browser’s Local Storage.
 
-## Funcionalidades
+## Table of contents
 
-La página web permite realizar las siguientes operaciones:
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Notes](#notes)
 
-- Crear: Agregar nuevos elementos a una lista utilizando un formulario interactivo.
+## Overview
 
-- Leer: Mostrar todos los elementos guardados en el Local Storage y visualizarlos en la página.
+This project implements a fully functional CRUD without the need for a backend or external database. All data is stored locally in the browser using localStorage, making it a great practice tool for DOM manipulation and data persistence using pure JavaScript.
 
-- Actualizar: Modificar los elementos existentes directamente desde la página.
+### Screenshot
 
-- Borrar: Eliminar elementos de la lista almacenada en el Local Storage.
+![qr-component]()
 
-## Tecnologías Utilizadas
+### Links
 
-- HTML5: Estructura básica de la página web.
+- Live Site URL: [Demo](https://serrato.dev/frontend-crud-localstorage/)
 
-- CSS3: Estilos para una presentación atractiva y responsive.
-- JavaScript (ES6+): Lógica de la aplicación, manejo del Local Storage y manipulación del DOM.
+## My process
 
-## Uso
+### Built with
 
-Clona este repositorio a tu máquina local usando git clone.
-Abre el archivo index.html en tu navegador web.
-Interactúa con la página para crear, leer, actualizar y borrar elementos.
-Contribución
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
+- Semantic HTML5 markup
+- CSS3
+- Vanilla JavaScript(ES6+)
+- LocalStorage API
+- Google Fonts
 
-## Haz un fork del repositorio.
+### Useful resources
 
-Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
-Realiza tus cambios y commitéelos (git commit -am 'Agrega una nueva funcionalidad').
-Haz push a la rama (git push origin feature/nueva-funcionalidad).
-Abre un Pull Request.
+- [BEM Cheat Sheet](https://bem-cheat-sheet.9elements.com/) - A handy guide for naming CSS classes using the BEM (Block Element Modifier) methodology. It provides naming suggestions for common web components like cards, buttons, and forms, helping you maintain organized and scalable code.
+- [Squoosh.app](https://squoosh.app/) - A free, browser-based image compression tool developed by GoogleChromeLabs. Squoosh allows you to compress and compare images with different codecs directly in your browser, ensuring your images are optimized without compromising quality.
+- [Shots.so](https://shots.so/) - An online tool that enables you to create beautiful mockups quickly. Simply drag and drop your screenshots or designs, choose from various devices and backgrounds, and customize the appearance to suit your needs.
 
-## Licencia
- 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+## Author
+
+- Website - [Serrato.dev](https://www.serrato.dev)
+- LinkedIn - [@angel-serrato](https://www.linkedin.com/in/angel-serrato/)
+- GitHub - [@angel-serrato](https://github.com/angel-serrato)
+
+## Notes
+
+This project was created for practice purposes using only Vanilla JavaScript and browser storage.
+
 
 https://www.youtube.com/watch?v=M3zl6okKnuQ
