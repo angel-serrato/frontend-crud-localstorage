@@ -19,7 +19,7 @@ This project implements a fully functional CRUD without the need for a backend o
 
 ### Screenshot
 
-![qr-component]()
+![crud-localstorage](https://github.com/user-attachments/assets/21ccc929-92e8-4cdf-9854-59175b4b0776)
 
 ### Links
 
