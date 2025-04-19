@@ -51,5 +51,4 @@ This project implements a fully functional CRUD without the need for a backend o
 
 This project was created for practice purposes using only Vanilla JavaScript and browser storage.
 
-
-https://www.youtube.com/watch?v=M3zl6okKnuQ
+<!-- https://www.youtube.com/watch?v=M3zl6okKnuQ -->
